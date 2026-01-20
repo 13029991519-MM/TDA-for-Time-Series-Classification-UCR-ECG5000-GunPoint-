@@ -19,28 +19,28 @@ A reproducible mini-project comparing **hand-crafted baseline features** vs **to
 
 ## Repo structure
 
-├─ run_tda_ucr_miniproject_local.py
-├─ tda_timeseries.py
-├─ data/
-│ ├─ ECG5000/
-│ │ ├─ ECG5000_TRAIN.tsv
-│ │ ├─ ECG5000_TEST.tsv
-│ │ └─ README.md
-│ └─ GunPoint/
-│ ├─ GunPoint_TRAIN.tsv
-│ ├─ GunPoint_TEST.tsv
-│ └─ README.md
-└─ outputs/
-├─ ECG5000/
-│ ├─ summary.csv
-│ ├─ fold_scores.csv
-│ └─ config.json
-└─ GunPoint/
-├─ summary.csv
-├─ fold_scores.csv
-└─ config.json
+├─ run_tda_ucr_miniproject_local.py  
+├─ tda_timeseries.py  
+├─ data/  
+│ ├─ ECG5000/  
+│ │ ├─ ECG5000_TRAIN.tsv  
+│ │ ├─ ECG5000_TEST.tsv  
+│ │ └─ README.md  
+│ └─ GunPoint/  
+│ ├─ GunPoint_TRAIN.tsv  
+│ ├─ GunPoint_TEST.tsv  
+│ └─ README.md  
+└─ outputs/  
+├─ ECG5000/  
+│ ├─ summary.csv  
+│ ├─ fold_scores.csv  
+│ └─ config.json  
+└─ GunPoint/  
+├─ summary.csv  
+├─ fold_scores.csv  
+└─ config.json  
 
-Data (UCR Archive)
+## Data (UCR Archive)
 
 Download ECG5000 and GunPoint from the UCR Time Series Archive (2018), extract, and place:
 
@@ -48,7 +48,7 @@ ECG5000_TRAIN.tsv, ECG5000_TEST.tsv into data/ECG5000/
 
 GunPoint_TRAIN.tsv, GunPoint_TEST.tsv into data/GunPoint/
 
-Results
+## Results
 ECG5000
 
 TDA_multiscale(SVM): acc 0.937333 (std 0.005538), macro-F1 0.553186 (std 0.042184)
