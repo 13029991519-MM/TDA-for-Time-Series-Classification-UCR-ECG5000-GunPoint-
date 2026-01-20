@@ -17,7 +17,7 @@ A reproducible mini-project comparing **hand-crafted baseline features** vs **to
 
 ---
 
-## Repo structure (aligned to your real files)
+## Repo structure
 
 ├─ run_tda_ucr_miniproject_local.py
 ├─ tda_timeseries.py
