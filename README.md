@@ -19,7 +19,7 @@ A reproducible mini-project comparing **hand-crafted baseline features** vs **to
 
 ## Repo structure
 
-├─ run_tda_ucr_miniproject_local.py  
+├─ tda_ucr.py  
 ├─ tda_timeseries.py  
 ├─ data/  
 │ ├─ ECG5000/  
