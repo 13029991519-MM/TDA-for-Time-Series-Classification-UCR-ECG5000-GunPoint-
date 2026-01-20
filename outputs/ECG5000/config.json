@@ -1,0 +1,31 @@
+{
+  "dataset": "ECG5000",
+  "dataset_dir": "C:\\Users\\MM\\Desktop\\1\\data\\ECG5000",
+  "out_dir": "outputs",
+  "seed": 42,
+  "n_splits": 5,
+  "n_repeats": 3,
+  "tda_single": {
+    "dim": 5,
+    "tau": 2,
+    "stride": 3
+  },
+  "tda_multiscale": [
+    {
+      "dim": 4,
+      "tau": 1,
+      "stride": 3
+    },
+    {
+      "dim": 5,
+      "tau": 2,
+      "stride": 3
+    },
+    {
+      "dim": 6,
+      "tau": 3,
+      "stride": 3
+    }
+  ],
+  "svm_C": 5.0
+}
